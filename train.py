@@ -8,7 +8,7 @@ from peft import LoraConfig, TaskType, get_peft_model
 from transformers import AutoModelForCausalLM, TrainingArguments, Trainer, DataCollatorForSeq2Seq
 import os
 import swanlab
-swanlab.login(api_key="hbSqBRoxk06NpfKLZxSn5")
+swanlab.login(api_key="你的API Key")
 
 def dataset_jsonl_transfer(origin_path, new_path):
     """
